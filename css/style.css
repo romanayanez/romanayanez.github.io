@@ -109,7 +109,7 @@ top: 64%;
   background-color: #FEE16F;
 }
 .caption h2{
-color:#FFE270;
+color:#000000;
 line-height:45px;
 font-size: 50px;
 }
@@ -2463,7 +2463,7 @@ margin-top: 20px;
 display:none;
 }
 .navbar {
-border: 0px solid #000000;
+border: 0px solid #fff;
 min-height: 40px;
 margin-bottom: 0px;
 float: initial;
