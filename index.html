@@ -2,380 +2,69 @@
 layout: default
 ---
 
- <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-    <!--
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-    </ol>
-    -->
-    
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-        <div class="active item">
-		<div class="caption zoomIn wow animated"> 		 
-              <h2> <br/><strong></strong></h2>
-              </div>
-		<img class="" src="img/real/carousel_1_smaller.jpg" alt=""></div>
-
-         <!--  <div class="item">
-		<div class="caption zoomIn wow animated"> 		 			 
-              <h2>TOOLS<br/><strong>Pen, paper, iPad, iPen and everything in between</strong></h2>
-              </div>
-			  <img class="" src="img/slide2.jpg" alt=""></div>
-        <div class="item">
-		<div class="caption zoomIn wow animated"> 		 			
-              <h2>MY MISSION<br/><strong>Illustrating science one concept at a time</strong></h2>
-             </div><img class="" src="img/slide3.jpg" alt=""></div>
-    </div>
-  -->
-    <!-- Carousel nav -->
-     <!--
-    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-    -->
+<section id="featured">
+	<!-- Slider -->
+  <div id="main-slider" class="flexslider">
+    <ul class="slides">
+      {% for litem in site.data.slide %}
+        <li>
+          <img src="{{litem.image}}" alt=""/>
+          <div class="flex-caption">
+            <h3>{{litem.title}}</h3>
+            <p>{{litem.description}}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-
-<section id="aboutUs"><!--Aboutus-->
-<div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
-  <div class="container">
-    <h2>About Me</h2>
-    <h6>Illustrating science, one concept at a time. </h6>
-
-    <div class="inner_section">
- <div class="row">
-      <div class="col-md-6"> <img class="img-responsive" src="img/real/romana_1.jpeg" align=""> </div>
-      <div class="col-md-6">
-        <p>I am a citizen of the world, passionate about transforming complex topics into simple and appealing visuals to facilitate the transmission of scientific knowledge.</p>
-        <p>I am trained in molecular and cell biology and experienced in science communication, illustration and graphic design.</p>
-<!--         
-        <p>Trained in molecular and cell biology, in South Africa and Portugal, ---blablabla 
-									</p>
-
-									<ul class="about-us-list">
-										<li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li> 
-                                        <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-										<li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
-									</ul>
-                  -->
-
-                  <!-- /.about-us-list -->
-								 
-      </div>
-    </div>
-	     </div>
-  </div> 
-  </div>
+	<!-- end slider -->
 </section>
-<!--Aboutus--> 
 
-
-<!--Skills
-<section  id="skills">
-  <div class="container">
-    <h2>My Skills</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-    <div class="service_wrapper">
-      <div class="row">
-        <div class="col-md-3">
-		<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-tree"></i></span> </div>
-          <div class="service_block">
-            
-            <h3 class="animated fadeInUp wow">Photography</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-          </div>
-        </div>
-        <div class="col-md-3"> 
-		<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-crosshairs"></i></span> </div> 
-		<div class="service_block">
-            <h3 class="animated fadeInUp wow">Editing Skills</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
-          </div>
-        </div>
-        <div class="col-md-3">
-		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-building-o "></i></span> </div>
-          <div class="service_block">
-            
-            <h3 class="animated fadeInUp wow">Lighting</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
-          </div>
-        </div>
-		  <div class="col-md-3">
-		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-twitter"></i></span> </div>
-          <div class="service_block">
-            
-            <h3 class="animated fadeInUp wow">Dimensions</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
-          </div>
-        </div>
-      </div> 
-	 
-    </div>
-  </div>
-</section>
-Skills-->  
-
-<!-- Portfolio -->
-<section id="Portfolio" class="content"> 
-  
-  <!-- Container -->
-  <div class="container portfolio_title"> 
-    
-    <!-- Title -->
-    <div class="section-title">
-      <h2>Portfolio</h2>
-	<h6>© Romana Yáñez. All rights reserved.
-Illustrations may not be reproduced, distributed, or used in any form without permission.
-</h6>
-	  
-    </div>
-    <!--/Title --> 
-    
-  </div>
-  <!-- Container -->
-  
-  <div class="portfolio-top"></div>
-  
-  <!-- Portfolio Filters -->
-  <div class="portfolio"> 
-    
-    <div id="filters" class="sixteen columns">
-      <ul class="clearfix">
-        <li><a id="all" href="#" data-filter="*" class="active">
-          <h5>All</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".cartas">
-          <h5>Cartas com Ciência</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".oex">
-          <h5>Oeiras Experimenta</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".blog">
-          <h5>Scientific Blog Figures</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".covers">
-          <h5>Cover Figures</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".books">
-          <h5>Illustrated Books</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".logos">
-          <h5>Logos</h5>
-          </a></li>
-
-      </ul>
-    </div>
-    <!--/Portfolio Filters --> 
-    
-    <!-- Portfolio Wrapper -->
-    <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 200px;" id="portfolio_wrapper">  
-      
-      <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four   cartas isotope-item effect-oscar">
-        <div class="portfolio_img"> 
-		<img src="img/real/cartas_tiles.jpg" alt="Portfolio 1"> </div> 
-			<figcaption>		
-				<div>
-				  <a href="img/real/cartas_tiles.jpg" class="fancybox"> 
-					<h2>Cartas com Ciência <span></span></h2>
-							<p>temas</p>
-				  </a>
-				</div>
-			</figcaption>
-        </figure>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 0px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four  oex isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/real/oex_tiles.jpg" alt="Portfolio 1"> </div>
-        	<figcaption>		
-				<div>
-				  <a href="img/real/oex_tiles.jpg" class="fancybox"> 
-					<h2>Oeiras Experimenta<span></span></h2>
-							<p></p>
-				  </a>
-				</div>
-			</figcaption>
-        </figure>
-      <!--/Portfolio Item --> 
-      
-      <!--\Portfolio Item--> 
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 0px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four  blog  isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/real/blog_tiles.jpg" alt="Portfolio 1"> </div>
-       <figcaption>		
-				<div>
-				  <a href="img/real/blog_tiles.jpg" class="fancybox"> 
-					<h2>Planter's Punch<span> </span></h2>
-							<p></p>
-				  </a>
-				</div>
-			</figcaption>
-        </figure>
-      <!-- /Portfolio Item--> 
-
-      <!--\Portfolio Item--> 
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(900px, 0px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four  covers  isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/real/covers_tiles.jpg" alt="Portfolio 1"> </div>
-       <figcaption>		
-				<div>
-				  <a href="img/real/covers_tiles.jpg" class="fancybox"> 
-					<h2>Covers<span> </span></h2>
-							<p></p>
-				  </a>
-				</div>
-			</figcaption>
-        </figure>
-      <!-- /Portfolio Item--> 
-
-       <!-- Portfolio Item --> 
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 200px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four  books isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/real/oquesou_tiles.jpg" alt="Portfolio 1"> </div>
-       <figcaption>		
-				<div>
-				  <a href="img/real/oquesou_tiles.jpg" class="fancybox"> 
-					<h2>O que sou? <span></span></h2>
-							<p></p>
-				  </a>
-				</div>
-			</figcaption>
-      </figure>
-      <!-- Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 200px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four  books isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/real/agoodday_tiles.jpg" alt="Portfolio 1"> </div>
-       <figcaption>		
-				<div>
-				  <a href="img/real/agoodday_tiles.jpg" class="fancybox"> 
-					<h2>A Good Day At School<span></span></h2>
-							<p></p>
-				  </a>
-				</div>
-			</figcaption>
-      </figure>
-     <!-- /Portfolio Item --> 
-      
-      <!-- Portfolio Item --> 
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 200px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four  oc isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/real/oc_tiles.jpg" alt="Portfolio 1"> </div>
-       <figcaption>		
-				<div>
-				  <a href="img/real/oc_tiles.jpg" class="fancybox"> 
-					<h2>Original Character<span></span></h2>
-							<p></p>
-				  </a>
-				</div>
-			</figcaption>
-      </figure>
-      <!-- Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(900px, 200px, 0px) scale3d(1, 1, 1); width: 300px; opacity: 1;" class="portfolio-item one-four   logos isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/real/logos_tiles.png" alt="Portfolio 1"> </div>       
-      <figcaption>		
-				<div>
-				  <a href="img/real/logos_tiles.png" class="fancybox"> 
-					<h2>Logos <span></span></h2>
-							<p></p>
-				  </a>
-				</div>
-			</figcaption>
-        </figure>
-      <!-- /Portfolio Item --> 
-      
-    </div>
-    <!--/Portfolio Wrapper --> 
-    
-  </div>
-  <!--/Portfolio Filters -->
-  
-  <div class="portfolio_btm"></div>
-  
-  
-  <div id="project_container">
-    <div class="clear"></div>
-    <div id="project_data"></div>
-  </div>
- 
-  
-</section>
-<!--/Portfolio --> 
-
-<!--\Experience
-<section id="experience">
-<div class="container">
-    <section id="news" class="white-bg padding-top-bottom">
-	 <div class="section-title">
-      <h2>Trajectory</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-	  
-    </div>
-    	<div class="container">
-			<div class="timeline">
-				<div class="date-title">
-					<span>2015</span>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 news-item">
-						<div class="news-content">
-							<div class="date">
-								<p>Oct</p> 
-							</div>
-							<h2 class="news-title">Best Photographer</h2> 
-							<span>Animal Care Group</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure…</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p>Aug</p> 
-							</div>
-							<h2 class="news-title">1st Winner</h2> 
-							<span>National Awareness</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure…</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-				 
-				
-				<div class="date-title">
-					<span>2013</span>
-				</div>
-				<div class="row">	
-					<div class="col-sm-6 news-item">
-						<div class="news-content">
-							<div class="date">
-								<p>Aug</p> 
-							</div>
-							<h2 class="news-title">Winner</h2> 
-							<span>Digital World</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that.</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p>Jan</p> 
-							</div>
-							<h2 class="news-title">Best Pic</h2> 
-							<span>Save World Org</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces.</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
+<section class="callaction">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-4">
+		<img src="img/people.png" alt="" width="100%"/> <!-- CHANGE PICTURE LOCATION HERE-->
+		</div>
+			<div class="col-md-8">
+				<div><h1><span><span class="blue_text"> Romana Yáñez </span></span></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
+          <p>I am a citizen of the world passionate about transforming complex topics into simple and appealing visuals to facilitate the transmission of scientific knowledge.</p>
+          <p>I have vast experience in illustration, graphic design and science communication beyond my trainning in molecular and cell biology.</p>
 				</div>
 			</div>
 		</div>
-	</section>
-</div>				                                                      
-</section> 
-/Experience -->
+	</div>
+</section>
 
 
+<section id="content">
+	<div class="container">
+	  <div class="row">
+      <div class="block-heading-two">
+        <h3><span>Our Solution</span></h3>
+      </div>		
+			<!-- Accordion starts -->
+			<div class="panel-group" id="accordion-alt3">
+			<!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
+      {% for litem in site.data.services %}
+        <div class="panel">
+          <!-- Panel heading -->
+           <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion-alt3" href="#{{litem.idname}}">
+                <i class="fa fa-angle-right"></i> {{litem.title}}
+              </a>
+            </h4>
+           </div>
+           <div id="{{litem.idname}}" class="panel-collapse collapse">
+            <!-- Panel body -->
+            <div class="panel-body">
+              {{litem.description}}
+            </div> 
+           </div>
+        </div>
+      {% endfor %}
+			<!-- Accordion ends -->
+		</div>
+	</div>
+</section>
