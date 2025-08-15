@@ -1,0 +1,51 @@
+<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="pageTitle">Portfolio</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+                <!--
+				<ul class="portfolio-categ filter">
+					<li class="all active"><a href="#">All</a></li>
+					<li class="concept"><a href="#" title="">Concept Illustrations</a></li>
+					<li class="cover"><a href="#" title="">Cover Figures</a></li>
+					<li class="logos"><a href="#" title="">Logos</a></li>
+                    <li class="publications"><a href="#" title="">Scientific Publication Figures</a></li>
+                    <li class="logos"><a href="#" title="">Logos</a></li>
+				</ul>
+                -->
+				<div class="clearfix">
+				</div>
+				<div class="row">
+					<section id="projects">
+					<ul id="thumbs" class="portfolio">
+
+                        {% for litem in site.data.portfolio %}
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs col-lg-3 design" data-id="{{litem.id}}" data-type="{{litem.type}}">
+                            <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{{litem.description}}" href="{{litem.image}}">
+                            <span class="overlay-img"></span>
+                            <span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-code"></i></span>
+                            </a>
+                            <!-- Thumb Image and Description -->
+                            <img src="{{litem.image}}" alt="">
+                            </li>
+                            <!-- End Item Project -->
+                        {% endfor %}
+
+					</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
