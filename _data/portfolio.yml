@@ -2,3 +2,5 @@
   type: concept
   image: img/real/cc/micromundo.jpeg
   description: Micromundo
+  width: 600 # IN PIXELS - Max 1920
+  height: 500 # IN PIXELS - Max 1080
