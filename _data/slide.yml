@@ -1,3 +1,14 @@
-- image: img/real/cc/micromundo.jpeg
-  description: Micromundo
-  title: Question 1
+- image: img/slide_logo.png
+  description: Are you planning a scientific event and need a logo and a visual identity?
+  title: Logos
+
+- image: img/slide_figures.png
+  description: Do you need to illustrate your article, thesis, or protocol?
+  title: Article figures
+
+- image: img/slide_education.png
+  description: Are you creating educational material and need to connect to your audience?
+  title: Educational material
+
+
+    

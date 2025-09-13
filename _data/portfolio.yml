@@ -1,6 +1,398 @@
-- id: id-0
-  type: concept
-  image: img/real/cc/micromundo.jpeg
-  description: Micromundo
-  width: 600 # IN PIXELS - Max 1920
-  height: 500 # IN PIXELS - Max 1080
+- id: figure-0
+  type: figure
+  image: img/figure_engine_new.png
+  description: Editorial illustration making an analogy between photosynthesis efficiency and a car engine. For CEPLAS Planter's Punch, 2020.
+  width: 600
+  height: 500
+
+
+- id: cartas-1
+  type: cartas
+  image: img/cartas_peoples.png
+  description: Concept illustration depicting the theme "Peoples". For Cartas com Ciência, 2021. 
+  width: 600
+  height: 500
+
+
+- id: figure-2
+  type: figure
+  image: img/figure_doughnuts_moon.png
+  description: Editorial illustration depicting how many calories are lost every year due to inefficient photosynthesis. For CEPLAS Planter's Punch, 2020.
+  width: 600
+  height: 500
+
+
+- id: oex-3
+  type: oex
+  image: img/oex_carbontree.png
+  description: Concept illustration depicting the CarbonTree device technology overlaid on a tree. For Ciência + Cidadã, 2024.
+  width: 600
+  height: 500
+
+
+- id: cover-4
+  type: cover
+  image: img/cover_flies.png
+  description: Editorial illustration depicting the life cycle of a fruit-fly, 2021.
+  width: 600
+  height: 500
+
+
+- id: figure-5
+  type: figure
+  image: img/figure_fxc_website.png
+  description: Journal article graphycal abstract on thermodynamics and networks, 2025.
+  width: 600
+  height: 500
+
+
+- id: cartas-6
+  type: cartas
+  image: img/cartas_vulcano.png
+  description: Concept illustration depicting the theme "Vulcanoes". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+
+- id: logo-8
+  type: logo
+  image: img/logo_sebp.png
+  description: Logo design winner for the Spanish Society of Plant Biology contest, 2022.
+  width: 600
+  height: 500
+
+
+- id: oex-9
+  type: oex
+  image: img/oex_campo.png
+  description: Concept illustration portraying the Oeiras Experimenta cultivation field. For Oeiras Experimenta, Ciência + Cidadã, 2023.
+  width: 600
+  height: 500
+
+- id: cartas-11
+  type: cartas
+  image: img/cartas_electricity.png
+  description: Concept illustration depicting the theme "Electricity". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: cartas-12
+  type: cartas
+  image: img/cartas_light.png
+  description: Concept illustration depicting the theme "Light". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: oex-13
+  type: oex
+  image: img/oex_chicharo.png
+  description: Concept illustration depicting the investigation done on grasspea (Lathyrus sativus). For Oeiras Experimenta, Ciência + Cidadã, 2024.
+  width: 600
+  height: 500
+
+
+- id: logo-14
+  type: logo
+  image: img/logo_netbio.png
+  description: Logo design for the Networks in Biology Community of Special Interest (NetBio COSI), 2025.
+  width: 600
+  height: 500
+
+
+- id: cover-15
+  type: cover
+  image: img/cover_cichlids.png
+  description: Editorial illustration on cichlid fish behaviour, 2024.
+  width: 600
+  height: 500
+
+
+- id: cartas-16
+  type: cartas
+  image: img/cartas_planets.png
+  description: Concept illustration depicting the theme "Planets". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: cover-17
+  type: cover
+  image: img/cover_arabidopsis.png
+  description: Editorial illustration on plant gene regulation and environment conditions, 2021.
+  width: 600
+  height: 500
+
+
+- id: logo-18
+  type: logo
+  image: img/logo_pmb.png
+  description: Logo design for the Plant Molecular Biology (PMB) group, 2022.
+  width: 600
+  height: 500
+
+
+- id: figure-19
+  type: figure
+  image: img/figure_tips.png
+  description: Journal article illustrations on plant alternative splicing and biotic stress. For Trends in Plant Science, 2024.
+  width: 600
+  height: 500
+
+
+- id: figure-20
+  type: figure
+  image: img/figure_doughnuts_man.png
+  description: Editorial illustration making an analogy between the calories contained in doughnuts and that produced by plants through photosynthesis. For CEPLAS Planter's Punch, 2020.
+  width: 600
+  height: 500
+
+
+- id: figure-21
+  type: figure
+  image: img/figure_leaf_old.png
+  description: Editorial illustration leaf architecture and photosynthesis. For CEPLAS Planter's Punch, 2020.
+  width: 600
+  height: 500
+
+
+- id: cartas-22
+  type: cartas
+  image: img/cartas_body.png
+  description: Concept illustration depicting the theme "Human Body". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: logo-23
+  type: logo
+  image: img/logo_netbiomed.png
+  description: Logo design for the Networks in Biology and Biomedicine (NetBioMed) 2025 symposium.
+  width: 600
+  height: 500
+
+
+- id: book-24
+  type: book
+  image: img/book_agoodday_2.png
+  description: Illustrated book "A Good Day at School", 2021.
+  width: 600
+  height: 500
+
+
+- id: cover-25
+  type: cover
+  image: img/cover_simba.png
+  description: Editorial illustration on the contribution to cell migration by external forces and DNA methylation, 2021.
+  width: 600
+  height: 500
+
+
+- id: book-26
+  type: book
+  image: img/book_agoodday_3.png
+  description: Illustrated book "A Good Day at School", 2021.
+  width: 600
+  height: 500
+
+
+- id: cartas-27
+  type: cartas
+  image: img/cartas_plants.png
+  description: Concept illustration depicting the theme "Plants". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: oex-28
+  type: oex
+  image: img/oex_zine.png
+  description: Educational fanzine design and illustrations. Fro Oeiras Experimenta, Ciência + Cidadã, 2025.
+  width: 600
+  height: 500
+
+
+- id: oex-29
+  type: oex
+  image: img/oex_abelhas.png
+  description: Concept illustration on the study of the Bee Gut Microbiome, 2025.
+  width: 600
+  height: 500
+
+
+- id: book-30
+  type: book
+  image: img/book_agoodday_1.png
+  description: Illustrated book "A Good Day at School", 2021.
+  width: 600
+  height: 500
+
+
+- id: oex-31
+  type: oex
+  image: img/oex_arroz.png
+  description: Concept illustration depicting the investigation done on rice (Oryza sativa). For Oeiras Experimenta, Ciência + Cidadã, 2024.
+  width: 600
+  height: 500
+
+
+- id: oex-32
+  type: oex
+  image: img/oex_picnic_sustentavel.png
+  description: Concept illustration depicting a sustainable picnic. For Oeiras Experimenta, Ciência + Cidadã, 2024.
+  width: 600
+  height: 500
+
+
+- id: cover-33
+  type: cover
+  image: img/cover_chicharo_oidio.png
+  description: Editorial illustration on Lathyrus sativus (grasspea) and powdery mildew infection, 2025.
+  width: 600
+  height: 500
+
+
+- id: book-34
+  type: book
+  image: img/book_agoodday_4.png
+  description: Illustrated book "A Good Day at School", 2021.
+  width: 600
+  height: 500
+
+
+- id: figure-35
+  type: figure
+  image: img/figure_ry_thesis.png
+  description: PhD thesis illustrations on plant splicing and translation factors, 2025.
+  width: 600
+  height: 500
+
+
+- id: logo-36
+  type: logo
+  image: img/logo_brol.png
+  description: Logo design for the Brazilian Researchers in Oeiras and Lisbon netwrk, 2024. 
+  width: 600
+  height: 500
+
+
+- id: cartas-37
+  type: cartas
+  image: img/cartas_dinosaurs.png
+  description: Concept illustration depicting the theme "Dinosaurs". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: book-38
+  type: book
+  image: img/book_oquesou_4.png
+  description: Illustrated book "O que sou?", 2022.
+  width: 600
+  height: 500
+
+
+- id: cartas-39
+  type: cartas
+  image: img/cartas_museum.png
+  description: Concept illustration depicting the theme "Museums". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: oc-40
+  type: oc
+  image: img/oc_1.png
+  description: Original character Arabidopsis.
+  width: 600
+  height: 500
+
+
+- id: oc-41
+  type: oc
+  image: img/oc_3.png
+  description: Original character Arabidopsis.
+  width: 600
+  height: 500
+
+
+- id: cartas-42
+  type: cartas
+  image: img/cartas_computers.png
+  description: Concept illustration depicting the theme "Computers". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: figure-43
+  type: figure
+  image: img/figure_engine_old.png
+  description:
+  width: 600
+  height: 500
+
+
+- id: oc-44
+  type: oc
+  image: img/oc_2.png
+  description: Original character Arabidopsis.
+  width: 600
+  height: 500
+
+
+- id: cartas-45
+  type: cartas
+  image: img/cartas_discovery.png
+  description: Concept illustration depicting the theme "Discoveries". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: book-46
+  type: book
+  image: img/book_oquesou_3.png
+  description: Illustrated book "O que sou?", 2022.
+  width: 600
+  height: 500
+
+
+- id: book-47
+  type: book
+  image: img/book_oquesou_2.png
+  description: Illustrated book "O que sou?", 2022.
+  width: 600
+  height: 500
+
+
+- id: cartas-48
+  type: cartas
+  image: img/cartas_microorganisms.png
+  description: Concept illustration depicting the theme "Microorganisms". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+- id: oex-49
+  type: oex
+  image: img/oex_micromundo.png
+  description: Concept illustration depicting the investigation on antibacterial compounds derived from soil microorganisms. Ciência + Cidadã, 2024.
+  width: 600
+  height: 500
+
+
+- id: book-50
+  type: book
+  image: img/book_oquesou_1.png
+  description: Illustrated book "O que sou?", 2022.
+  width: 600
+  height: 500
+
+
+- id: oc-51
+  type: oc
+  image: img/oc_4.png
+  description: Original character Arabidopsis.
+  width: 600
+  height: 500

@@ -1,5 +1,17 @@
-- idname: ccmicro
-  description: Micromundo
-  title: Question 1
-  imgone: img/...
-  imgtwo: img/...
+- idname: logo
+  title: Logo design and visual identity
+  description: Are you planning a scientific event and need a logo and a visual identity? 
+  imgone: img/logo_netbio.png
+  imgtwo: img/logo_netbiomed.png
+
+- idname: illustration
+  title: Scientific illustrations
+  description: Do you need to illustrate your article, thesis, or protocol?
+  imgone: img/logo_netbio.png
+  imgtwo: img/logo_netbiomed.png
+
+- idname: design
+  title: Graphic design
+  description: Do you need to create a poster, infographic or educational material?
+  imgone: img/oex_zine.png
+  imgtwo: img/oex_arroz.png
