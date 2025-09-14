@@ -199,14 +199,14 @@ header ul.nav li {
 }
 
 header ul.nav li a {	
-	font-size:12px;
+	font-size:24px;
 	border:none;
 	font-weight:700;
 	text-transform:uppercase;
 }
 
 header ul.nav li ul li a {	
-	font-size:12px;
+	font-size:24px;
 	border:none;
 	font-weight:300;
 	text-transform:uppercase;
@@ -393,8 +393,8 @@ background-size: cover;
 }
 .testimonial-solid p {
 color: #ffffff;
-font-size: 16px;
-line-height: 30px;
+font-size: 18px;
+line-height: 20px;
 font-style: italic;
 } 
 section.callaction {
@@ -517,7 +517,7 @@ section.callaction {
 	padding-bottom:0;
 }
 #inner-headline ul.breadcrumb li {
-	font-size:13px;
+	font-size:18px;
 	color:#fff;
 }
 
@@ -848,7 +848,7 @@ line-height: 28px;
 margin:0px;
 }
 .info-blocks .info-blocks-in p {
-font-size: 12px;
+font-size: 18px;
 }
   
 blockquote {
