@@ -7,11 +7,11 @@
 - idname: illustration
   title: Scientific illustrations
   description: Do you need to illustrate your article, thesis, or protocol?
-  imgone: img/oex_abelhas.png
-  imgtwo: img/figure_ry_thesis.png
+  imgone: img/oex_bee.png
+  imgtwo: img/illu_thesis.png
 
 - idname: design
   title: Graphic design
   description: Do you need to create a poster, infographic or educational material?
   imgone: img/oex_zine.png
-  imgtwo: img/oex_arroz.png
+  imgtwo: img/oex_rice.png
