@@ -1,4 +1,4 @@
-Illu_main
+#Illu_main
 
 - id: illu-14
   type: illu
@@ -50,7 +50,7 @@ Illu_main
   height: 500
 
 
-OEX
+#OEX
 - id: oex-23
   type: oex
   image: img/oex_chicharo.png
@@ -94,7 +94,7 @@ OEX
   height: 500
 
 
-Logos
+#Logos
 - id: logo-41
   type: logo
   image: img/logo_netbiocosi.png
@@ -137,7 +137,7 @@ Logos
   width: 500
   height: 500
 
-Books_oquesou
+#Books_oquesou
 - id: book-54
   type: book
   image: img/book_oquesou_cover.png
@@ -179,7 +179,8 @@ Books_oquesou
   description:
   width: 500
   height: 500
-Illu_general
+
+#Illu_general
 - id: illu-44
   type: illu
   image: img/illu_simba_methylation.png
@@ -240,7 +241,7 @@ Illu_general
 
 
 
-Illu_tech
+#Illu_tech
 - id: illu-47
   type: illu
   image: img/illu_thesis.png
@@ -276,7 +277,7 @@ Illu_tech
   width: 500
   height: 500
 
-Illu_less
+#Illu_less
 
 - id: illu-35
   type: illu
@@ -288,7 +289,7 @@ Illu_less
 
 
 
-Cartas
+#Cartas
 - id: cartas-52
   type: cartas
   image: img/cartas_microorganisms.png
@@ -347,7 +348,7 @@ Cartas
 
 
 
-Books_agoodday
+#Books_agoodday
 - id: book-16
   type: book
   image: img/book_agoodday_home.png
@@ -375,7 +376,7 @@ Books_agoodday
   width: 500
   height: 500
 
-OC
+#OC
 - id: oc-22
   type: oc
   image: img/oc_amultifacetada.png
