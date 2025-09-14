@@ -7,7 +7,7 @@
   width: 500
   height: 500
 
-  - id: illu-48
+- id: illu-48
   type: illu
   image: img/illu_dynamic.png
   description: Statistical distributions, 2025.
@@ -380,7 +380,7 @@
   width: 500
   height: 500
 
-  
+
 
 #OC
 - id: oc-22
