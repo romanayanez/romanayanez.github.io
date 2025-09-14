@@ -5,17 +5,31 @@
   width: 600
   height: 500
 
-- id: figure-5
-  type: figure
-  image: img/figure_fxc_website.png
-  description: Journal article graphycal abstract on thermodynamics and networks, 2025.
-  width: 600
-  height: 500
-
 - id: cover-15
   type: cover
   image: img/cover_cichlids.png
   description: Editorial illustration on cichlid fish behaviour, 2024.
+  width: 600
+  height: 500
+
+- id: cover-33
+  type: cover
+  image: img/cover_chicharo_oidio.png
+  description: Editorial illustration on Lathyrus sativus (grasspea) and powdery mildew infection, 2025.
+  width: 600
+  height: 500
+
+- id: cover-25
+  type: cover
+  image: img/cover_simba.png
+  description: Editorial illustration on the contribution to cell migration by external forces and DNA methylation, 2021.
+  width: 600
+  height: 500
+
+- id: figure-5
+  type: figure
+  image: img/figure_fxc_website.png
+  description: Journal article graphycal abstract on thermodynamics and networks, 2025.
   width: 600
   height: 500
 
@@ -25,14 +39,6 @@
   description: Editorial illustration depicting the life cycle of a fruit-fly, 2021.
   width: 600
   height: 500
-
-- id: logo-14
-  type: logo
-  image: img/logo_netbio.png
-  description: Logo design for the Networks in Biology Community of Special Interest (NetBio COSI), 2025.
-  width: 600
-  height: 500
-
 
 
 - id: oex-49
@@ -49,6 +55,13 @@
   width: 600
   height: 500
 
+- id: oex-28
+  type: oex
+  image: img/oex_zine.png
+  description: Educational fanzine design and illustrations. For Oeiras Experimenta, Ciência + Cidadã, 2025.
+  width: 600
+  height: 500
+
 - id: oex-13
   type: oex
   image: img/oex_chicharo.png
@@ -60,13 +73,6 @@
   type: oex
   image: img/oex_campo.png
   description: Concept illustration portraying the Oeiras Experimenta cultivation field. For Oeiras Experimenta, Ciência + Cidadã, 2023.
-  width: 600
-  height: 500
-
-- id: oex-28
-  type: oex
-  image: img/oex_zine.png
-  description: Educational fanzine design and illustrations. Fro Oeiras Experimenta, Ciência + Cidadã, 2025.
   width: 600
   height: 500
 
@@ -123,6 +129,29 @@
 
 
 
+
+
+- id: logo-14
+  type: logo
+  image: img/logo_netbio.png
+  description: Logo design for the Networks in Biology Community of Special Interest (NetBio COSI), 2025.
+  width: 600
+  height: 500
+  
+- id: logo-23
+  type: logo
+  image: img/logo_netbiomed.png
+  description: Logo design for the Networks in Biology and Biomedicine (NetBioMed) 2025 symposium.
+  width: 600
+  height: 500
+  
+- id: logo-36
+  type: logo
+  image: img/logo_brol.png
+  description: Logo design for the Brazilian Researchers in Oeiras and Lisbon netwrk, 2024. 
+  width: 600
+  height: 500
+
 - id: logo-8
   type: logo
   image: img/logo_sebp.png
@@ -144,6 +173,29 @@
   description: Journal article illustrations on plant alternative splicing and biotic stress. For Trends in Plant Science, 2024.
   width: 600
   height: 500
+
+
+- id: book-50
+  type: book
+  image: img/book_oquesou_1.png
+  description: Illustrated book "O que sou?", 2022.
+  width: 600
+  height: 500
+  
+- id: book-47
+  type: book
+  image: img/book_oquesou_2.png
+  description: Illustrated book "O que sou?", 2022.
+  width: 600
+  height: 500
+
+- id: book-46
+  type: book
+  image: img/book_oquesou_3.png
+  description: Illustrated book "O que sou?", 2022.
+  width: 600
+  height: 500
+
 
 
 
@@ -217,33 +269,41 @@
   width: 600
   height: 500
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- id: logo-23
-  type: logo
-  image: img/logo_netbiomed.png
-  description: Logo design for the Networks in Biology and Biomedicine (NetBioMed) 2025 symposium.
+- id: cartas-39
+  type: cartas
+  image: img/cartas_museum.png
+  description: Concept illustration depicting the theme "Museums". For Cartas com Ciência, 2021.
   width: 600
   height: 500
+
+- id: cartas-42
+  type: cartas
+  image: img/cartas_computers.png
+  description: Concept illustration depicting the theme "Computers". For Cartas com Ciência, 2021.
+  width: 600
+  height: 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - id: book-24
@@ -254,12 +314,7 @@
   height: 500
 
 
-- id: cover-25
-  type: cover
-  image: img/cover_simba.png
-  description: Editorial illustration on the contribution to cell migration by external forces and DNA methylation, 2021.
-  width: 600
-  height: 500
+
 
 
 - id: book-26
@@ -284,12 +339,7 @@
 
 
 
-- id: cover-33
-  type: cover
-  image: img/cover_chicharo_oidio.png
-  description: Editorial illustration on Lathyrus sativus (grasspea) and powdery mildew infection, 2025.
-  width: 600
-  height: 500
+
 
 
 - id: book-34
@@ -308,12 +358,6 @@
   height: 500
 
 
-- id: logo-36
-  type: logo
-  image: img/logo_brol.png
-  description: Logo design for the Brazilian Researchers in Oeiras and Lisbon netwrk, 2024. 
-  width: 600
-  height: 500
 
 
 
@@ -326,10 +370,13 @@
   height: 500
 
 
-- id: cartas-39
-  type: cartas
-  image: img/cartas_museum.png
-  description: Concept illustration depicting the theme "Museums". For Cartas com Ciência, 2021.
+
+
+
+- id: figure-43
+  type: figure
+  image: img/figure_engine_old.png
+  description: Photosynthesis efficiency and a car engine. For CEPLAS Planter's Punch, 2020.
   width: 600
   height: 500
 
@@ -341,31 +388,6 @@
   width: 600
   height: 500
 
-
-- id: oc-41
-  type: oc
-  image: img/oc_3.png
-  description: Original character Arabidopsis.
-  width: 600
-  height: 500
-
-
-- id: cartas-42
-  type: cartas
-  image: img/cartas_computers.png
-  description: Concept illustration depicting the theme "Computers". For Cartas com Ciência, 2021.
-  width: 600
-  height: 500
-
-
-- id: figure-43
-  type: figure
-  image: img/figure_engine_old.png
-  description: Photosynthesis efficiency and a car engine. For CEPLAS Planter's Punch, 2020.
-  width: 600
-  height: 500
-
-
 - id: oc-44
   type: oc
   image: img/oc_2.png
@@ -373,33 +395,12 @@
   width: 600
   height: 500
 
-
-
-
-- id: book-46
-  type: book
-  image: img/book_oquesou_3.png
-  description: Illustrated book "O que sou?", 2022.
+- id: oc-41
+  type: oc
+  image: img/oc_3.png
+  description: Original character Arabidopsis.
   width: 600
   height: 500
-
-
-- id: book-47
-  type: book
-  image: img/book_oquesou_2.png
-  description: Illustrated book "O que sou?", 2022.
-  width: 600
-  height: 500
-
-
-
-- id: book-50
-  type: book
-  image: img/book_oquesou_1.png
-  description: Illustrated book "O que sou?", 2022.
-  width: 600
-  height: 500
-
 
 - id: oc-51
   type: oc
