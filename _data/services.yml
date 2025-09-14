@@ -7,8 +7,8 @@
 - idname: illustration
   title: Scientific illustrations
   description: Do you need to illustrate your article, thesis, or protocol?
-  imgone: img/logo_netbio.png
-  imgtwo: img/logo_netbiomed.png
+  imgone: img/oex_abelhas.png
+  imgtwo: img/figure_ry_thesis.png
 
 - idname: design
   title: Graphic design
