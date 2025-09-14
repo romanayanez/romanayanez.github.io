@@ -199,14 +199,14 @@ header ul.nav li {
 }
 
 header ul.nav li a {	
-	font-size:12px;
+	font-size:24px;
 	border:none;
 	font-weight:700;
 	text-transform:uppercase;
 }
 
 header ul.nav li ul li a {	
-	font-size:12px;
+	font-size:24px;
 	border:none;
 	font-weight:300;
 	text-transform:uppercase;
@@ -393,7 +393,7 @@ background-size: cover;
 }
 .testimonial-solid p {
 color: #ffffff;
-font-size: 18px;
+font-size: 20px;
 line-height: 20px;
 font-style: italic;
 } 
@@ -762,7 +762,7 @@ ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio
 	outline:0; 
 }
   #accordion-alt3 .panel-heading h4 {
-font-size: 13px;
+font-size: 20px;
 line-height: 28px;
 }
 .panel .panel-heading h4 {
