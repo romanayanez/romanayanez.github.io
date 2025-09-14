@@ -61,9 +61,13 @@ layout: default
            <div id="{{litem.idname}}" class="panel-collapse collapse">
             <!-- Panel body -->
             <div class="panel-body">
-              {{litem.description}}
-              <img src="{{litem.imgone}}" alt="" width="414" height="284">
-              <img src="{{litem.imgtwo}}" alt="" width="414" height="284">
+              <div class="row">
+                {{litem.description}}
+              </div>
+              <div class="row">
+                <img src="{{litem.imgone}}" alt="" width="414" height="284">
+                <img src="{{litem.imgtwo}}" alt="" width="414" height="284">  
+              </div>
             </div> 
            </div>
         </div>
