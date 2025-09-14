@@ -14,16 +14,21 @@ layout: default
 
 <section id="featured">
 	<!-- Slider -->
-  <div id="main-slider" class="flexslider">
+   <div id="main-slider" class="flexslider">
     <ul class="slides">
+      {% for litem in site.data.slide %}
         <li>
-          <img src="{{litem.image}}" alt="" width="1440" height="520"/> <!-- CHANGE PICTURE LOCATION HERE-->
+          <img src="{{litem.image}}" alt="" width="1440" height="520"/>
           <div class="flex-caption">
-            <h3>Under Construction</h3>
-            <p>Reach out via the contact details below to learn more.</p>
+            <h3>{{litem.title}}</h3>
+            <p>{{litem.description}}</p>
           </div>
         </li>
+      {% endfor %}
     </ul>
   </div>
-	<!-- end slider -->
+  <!-- end slider -->
+
+  <h3>Under Construction</h3>
+  <p>Reach out via the contact details below to learn more.</p>
 </section>
