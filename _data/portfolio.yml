@@ -7,35 +7,7 @@
   width: 500
   height: 500
 
-- id: illu-37
-  type: illu
-  image: img/illu_cichlids.png
-  description: Cichlid fish behaviour, 2024.
-  width: 500
-  height: 500
-
-- id: illu-45
-  type: illu
-  image: img/illu_chicharo_oideo.png
-  description: Lathyrus sativus (grasspea) and powdery mildew infection, 2025.
-  width: 500
-  height: 500
-
-- id: oex-57
-  type: oex
-  image: img/oex_micromundo.png
-  description: MicroMundo-Oeiras, antibacterial compounds derived from soil microorganisms. For Ciência + Cidadã, 2024.
-  width: 500
-  height: 500
-
-- id: oex-56
-  type: oex
-  image: img/oex_bee.png
-  description: Bee Gut Microbiome For Ciência + Cidadã, 2025.
-  width: 500
-  height: 500
-
-- id: illu-48
+  - id: illu-48
   type: illu
   image: img/illu_dynamic.png
   description: Statistical distributions, 2025.
@@ -49,26 +21,27 @@
   width: 500
   height: 500
 
+- id: illu-37
+  type: illu
+  image: img/illu_cichlids.png
+  description: Cichlid fish behaviour, 2024.
+  width: 500
+  height: 500
+
+
+
+- id: illu-45
+  type: illu
+  image: img/illu_chicharo_oideo.png
+  description: Lathyrus sativus (grasspea) and powdery mildew infection, 2025.
+  width: 500
+  height: 500
 
 #OEX
-- id: oex-23
+- id: oex-56
   type: oex
-  image: img/oex_chicharo.png
-  description: Grasspea (Lathyrus sativus). For Oeiras Experimenta, Ciência + Cidadã, 2024.
-  width: 500
-  height: 500
-
-- id: oex-49
-  type: oex
-  image: img/oex_rice.png
-  description:
-  width: 500
-  height: 500
-
-- id: oex-36
-  type: oex
-  image: img/oex_zine.png
-  description: The crops of Oeiras Experimenta. Fanzine design and illustrations. For Oeiras Experimenta, Ciência + Cidadã, 2025.
+  image: img/oex_bee.png
+  description: Bee Gut Microbiome For Ciência + Cidadã, 2025.
   width: 500
   height: 500
 
@@ -79,6 +52,28 @@
   width: 500
   height: 500
 
+- id: oex-57
+  type: oex
+  image: img/oex_micromundo.png
+  description: MicroMundo-Oeiras, antibacterial compounds derived from soil microorganisms. For Ciência + Cidadã, 2024.
+  width: 500
+  height: 500
+
+
+- id: oex-23
+  type: oex
+  image: img/oex_chicharo.png
+  description: Grasspea (Lathyrus sativus). For Oeiras Experimenta, Ciência + Cidadã, 2024.
+  width: 500
+  height: 500
+
+- id: oex-36
+  type: oex
+  image: img/oex_zine.png
+  description: The crops of Oeiras Experimenta. Fanzine design and illustrations. For Oeiras Experimenta, Ciência + Cidadã, 2025.
+  width: 500
+  height: 500
+
 - id: oex-7
   type: oex
   image: img/oex_picnic_sustainable.png
@@ -86,13 +81,21 @@
   width: 500
   height: 500
 
+- id: oex-49
+  type: oex
+  image: img/oex_rice.png
+  description:
+  width: 500
+  height: 500
+
+
+
 - id: oex-5
   type: oex
   image: img/oex_carbontree.png
   description:
   width: 500
   height: 500
-
 
 #Logos
 - id: logo-41
@@ -102,12 +105,12 @@
   width: 500
   height: 500
 
-- id: logo-24
-  type: logo
-  image: img/logo_netbio.png
-  description:
-  width: 500
-  height: 500
+#- id: logo-24
+  #type: logo
+  #image: img/logo_netbio.png
+  #description:
+  #width: 500
+  #height: 500
 
 - id: logo-32
   type: logo
@@ -123,6 +126,8 @@
   width: 500
   height: 500
 
+
+
 - id: logo-29
   type: logo
   image: img/logo_pmb.png
@@ -137,57 +142,7 @@
   width: 500
   height: 500
 
-#Books_oquesou
-- id: book-54
-  type: book
-  image: img/book_oquesou_cover.png
-  description:
-  width: 500
-  height: 500
-
-- id: book-2
-  type: book
-  image: img/book_oquesou_magnify.png
-  description:
-  width: 500
-  height: 500
-
-- id: book-17
-  type: book
-  image: img/book_oquesou_petal.png
-  description:
-  width: 500
-  height: 500
-
-- id: book-10
-  type: book
-  image: img/book_oquesou_field.png
-  description:
-  width: 500
-  height: 500
-
-- id: book-6
-  type: book
-  image: img/book_oquesou_technical.png
-  description:
-  width: 500
-  height: 500
-
-- id: book-40
-  type: book
-  image: img/book_oquesou_poppy.png
-  description:
-  width: 500
-  height: 500
-
 #Illu_general
-- id: illu-44
-  type: illu
-  image: img/illu_simba_methylation.png
-  description: Cell migration, external forces and DNA methylation, 2021.
-  width: 500
-  height: 500
-
 - id: illu-25
   type: illu
   image: img/illu_fly_priscilla.png
@@ -201,6 +156,7 @@
   description: Fruit fly life cycle, 2021.
   width: 500
   height: 500
+
 
 - id: illu-28
   type: illu
@@ -226,13 +182,6 @@
 - id: illu-31
   type: illu
   image: img/illu_ceplas_doughnut_moon.png
-  description:
-  width: 500
-  height: 500
-
-- id: illu-27
-  type: illu
-  image: img/illu_brave_new_virtual_world.png
   description:
   width: 500
   height: 500
@@ -270,6 +219,8 @@
   width: 500
   height: 500
 
+
+
 - id: illu-4
   type: illu
   image: img/illu_protocol_nf.png
@@ -278,6 +229,20 @@
   height: 500
 
 #Illu_less
+
+- id: illu-44
+  type: illu
+  image: img/illu_simba_methylation.png
+  description: Cell migration, external forces and DNA methylation, 2021.
+  width: 500
+  height: 500
+
+- id: illu-27
+  type: illu
+  image: img/illu_brave_new_virtual_world.png
+  description:
+  width: 500
+  height: 500
 
 - id: illu-35
   type: illu
@@ -318,6 +283,8 @@
   width: 500
   height: 500
 
+
+
 - id: cartas-50
   type: cartas
   image: img/cartas_discovery.png
@@ -348,6 +315,43 @@
 
 
 
+#Books_oquesou
+- id: book-54
+  type: book
+  image: img/book_oquesou_cover.png
+  description:
+  width: 500
+  height: 500
+
+- id: book-2
+  type: book
+  image: img/book_oquesou_magnify.png
+  description:
+  width: 500
+  height: 500
+
+- id: book-17
+  type: book
+  image: img/book_oquesou_petal.png
+  description:
+  width: 500
+  height: 500
+
+#- id: book-10
+#  type: book
+#  image: img/book_oquesou_field.png
+#  description:
+#  width: 500
+#  height: 500
+
+- id: book-6
+  type: book
+  image: img/book_oquesou_technical.png
+  description:
+  width: 500
+  height: 500
+
+
 #Books_agoodday
 - id: book-16
   type: book
@@ -375,6 +379,8 @@
   description:
   width: 500
   height: 500
+
+  
 
 #OC
 - id: oc-22
