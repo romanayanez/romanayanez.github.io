@@ -7,29 +7,6 @@
   width: 500
   height: 500
 
-- id: illu-48
-  type: illu
-  image: img/illu_dynamic.png
-  description: Statistical distributions, 2025.
-  width: 500
-  height: 500
-
-- id: illu-43
-  type: illu
-  image: img/illu_network.png
-  description: Networks, 2025.
-  width: 500
-  height: 500
-
-- id: illu-37
-  type: illu
-  image: img/illu_cichlids.png
-  description: Cichlid fish behaviour, 2024.
-  width: 500
-  height: 500
-
-
-
 - id: illu-45
   type: illu
   image: img/illu_chicharo_oideo.png
@@ -37,18 +14,34 @@
   width: 500
   height: 500
 
-#OEX
-- id: oex-56
+- id: oex-23
   type: oex
-  image: img/oex_bee.png
-  description: Bee Gut Microbiome For Ciência + Cidadã, 2025.
+  image: img/oex_chicharo.png
+  description: Grasspea (Lathyrus sativus). For Oeiras Experimenta, Ciência + Cidadã, 2024.
   width: 500
   height: 500
 
-- id: oex-19
+- id: oex-56
   type: oex
-  image: img/oex_campo.png
-  description: Oeiras Experimenta cultivation field. For Oeiras Experimenta, Ciência + Cidadã, 2023.
+  image: img/oex_bee.png
+  description: Bee gut microbiome. For Ciência + Cidadã, 2025.
+  width: 500
+  height: 500
+
+
+
+#OEX
+- id: illu-37
+  type: illu
+  image: img/illu_cichlids.png
+  description: Cichlid fish behaviour, 2024.
+  width: 500
+  height: 500
+
+- id: oex-49
+  type: oex
+  image: img/oex_rice.png
+  description: Rice (Oryza sativa) research. For Oeiras Experimenta, Ciência + Cidadã, 2024.
   width: 500
   height: 500
 
@@ -59,41 +52,81 @@
   width: 500
   height: 500
 
-
-- id: oex-23
+- id: oex-19
   type: oex
-  image: img/oex_chicharo.png
-  description: Grasspea (Lathyrus sativus). For Oeiras Experimenta, Ciência + Cidadã, 2024.
+  image: img/oex_campo.png
+  description: Oeiras Experimenta cultivation field. For Oeiras Experimenta, Ciência + Cidadã, 2023.
   width: 500
   height: 500
+
+
+
 
 - id: oex-36
   type: oex
   image: img/oex_zine.png
-  description: The crops of Oeiras Experimenta. Fanzine design and illustrations. For Oeiras Experimenta, Ciência + Cidadã, 2025.
+  description: The crops of Oeiras Experimenta. Fanzine design and illustration. For Oeiras Experimenta, Ciência + Cidadã, 2025.
   width: 500
   height: 500
-
-- id: oex-7
-  type: oex
-  image: img/oex_picnic_sustainable.png
-  description:
-  width: 500
-  height: 500
-
-- id: oex-49
-  type: oex
-  image: img/oex_rice.png
-  description:
-  width: 500
-  height: 500
-
-
 
 - id: oex-5
   type: oex
   image: img/oex_carbontree.png
-  description:
+  description: CarbonTree device technology. For Ciência + Cidadã, 2024.
+  width: 500
+  height: 500
+
+- id: illu-25
+  type: illu
+  image: img/illu_fly_priscilla.png
+  description: Fruit fly patterns, 2021.
+  width: 500
+  height: 500
+
+- id: illu-13
+  type: illu
+  image: img/illu_fly_cycle.png
+  description: Drosophila melanogaster (fruit fly) life cycle, 2021.
+  width: 500
+  height: 500
+
+
+
+
+- id: illu-31
+  type: illu
+  image: img/illu_ceplas_doughnut_moon.png
+  description: How many calories are lost every year due to inefficient photosynthesis. For CEPLAS Planter's Punch, 2020.
+  width: 500
+  height: 500
+
+- id: illu-33
+  type: illu
+  image: img/illu_ceplas_doughnuts_man.png
+  description: Calories in doughnuts and that produced by plants through photosynthesis. For CEPLAS Planter's Punch, 2020.
+  width: 500
+  height: 500
+
+- id: illu-28
+  type: illu
+  image: img/illu_fly_ibb.png
+  description: Élio's Drosophila and the IBB2019 cohort, 2020.
+  width: 500
+  height: 500
+
+- id: illu-27
+  type: illu
+  image: img/illu_brave_new_virtual_world.png
+  description: Brave new virtual world. Entry for the UNESCO Creative Resilience Art by Women in Science Exhibition, 2021.
+  width: 500
+  height: 500
+
+
+
+- id: illu-48
+  type: illu
+  image: img/illu_dynamic.png
+  description: Statistical distributions. For https://fxcosta-phd.github.io/, 2025.
   width: 500
   height: 500
 
@@ -101,7 +134,7 @@
 - id: logo-41
   type: logo
   image: img/logo_netbiocosi.png
-  description:
+  description: Logo design for the Networks in Biology Community of Special Interest (NetBio COSI), 2025.
   width: 500
   height: 500
 
@@ -115,142 +148,79 @@
 - id: logo-32
   type: logo
   image: img/logo_netbiomed.png
-  description:
+  description: Logo design for the Networks in Biology and Biomedicine (NetBioMed) 2025 symposium.
+  width: 500
+  height: 500
+
+- id: illu-43
+  type: illu
+  image: img/illu_network.png
+  description: Networks. For https://fxcosta-phd.github.io/, 2025.
+  width: 500
+  height: 500
+
+
+
+
+- id: illu-12
+  type: illu
+  image: img/illu_ceplas_engine_plants.png
+  description: Photosynthesis efficiency and a car engine. For CEPLAS Planter's Punch, 2020.
   width: 500
   height: 500
 
 - id: logo-18
   type: logo
   image: img/logo_sebp.png
-  description:
+  description: Logo design winner for the Spanish Society of Plant Biology contest, 2022.
   width: 500
   height: 500
-
-
 
 - id: logo-29
   type: logo
   image: img/logo_pmb.png
-  description:
+  description: Logo design for the Plant Molecular Biology (PMB) group, 2022.
   width: 500
   height: 500
 
-- id: logo-38
-  type: logo
-  image: img/logo_brol.png
-  description:
-  width: 500
-  height: 500
-
-#Illu_general
-- id: illu-25
+- id: illu-4
   type: illu
-  image: img/illu_fly_priscilla.png
-  description: Fruit fly, 2021.
+  image: img/illu_protocol_nf.png
+  description: Subcellular fractionation protocol illustration, 2024. Based on Hartmann et al., (2018).
   width: 500
   height: 500
-
-- id: illu-13
-  type: illu
-  image: img/illu_fly_cycle.png
-  description: Fruit fly life cycle, 2021.
-  width: 500
-  height: 500
-
-
-- id: illu-28
-  type: illu
-  image: img/illu_fly_ibb.png
-  description:
-  width: 500
-  height: 500
-
-- id: illu-12
-  type: illu
-  image: img/illu_ceplas_engine_plants.png
-  description:
-  width: 500
-  height: 500
-
-- id: illu-33
-  type: illu
-  image: img/illu_ceplas_doughnuts_man.png
-  description:
-  width: 500
-  height: 500
-
-- id: illu-31
-  type: illu
-  image: img/illu_ceplas_doughnut_moon.png
-  description:
-  width: 500
-  height: 500
-
-
 
 
 
 #Illu_tech
+- id: illu-42
+  type: illu
+  image: img/illu_tips_defense.png
+  description: Journal article illustration on plant biotic stress responses. For Trends in Plant Science, 2024.
+  width: 500
+  height: 500
+
 - id: illu-47
   type: illu
   image: img/illu_thesis.png
-  description:
+  description: PhD thesis illustrations on plant splicing and translation factors, 2025.
   width: 500
   height: 500
 
 - id: illu-8
   type: illu
   image: img/illu_thesis_2.png
-  description:
-  width: 500
-  height: 500
-
-- id: illu-42
-  type: illu
-  image: img/illu_tips_defense.png
-  description:
+  description: PhD thesis illustrations on SR protein functions beyond splicing, 2025.
   width: 500
   height: 500
 
 - id: illu-9
   type: illu
   image: img/illu_tips_splicing.png
-  description:
+  description: Journal article illustration on plant alternative splicing and biotic stress responses. For Trends in Plant Science, 2024.
+
   width: 500
   height: 500
-
-
-
-- id: illu-4
-  type: illu
-  image: img/illu_protocol_nf.png
-  description:
-  width: 500
-  height: 500
-
-#Illu_less
-
-- id: illu-44
-  type: illu
-  image: img/illu_simba_methylation.png
-  description: Cell migration, external forces and DNA methylation, 2021.
-  width: 500
-  height: 500
-
-- id: illu-27
-  type: illu
-  image: img/illu_brave_new_virtual_world.png
-  description:
-  width: 500
-  height: 500
-
-- id: illu-35
-  type: illu
-  image: img/illu_cover_ed.png
-  description:
-  width: 500
-  height: 500
-
 
 
 
@@ -258,28 +228,28 @@
 - id: cartas-52
   type: cartas
   image: img/cartas_microorganisms.png
-  description:
+  description: Microoganisms. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
 - id: cartas-21
   type: cartas
   image: img/cartas_light.png
-  description:
+  description: Light. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
 - id: cartas-15
   type: cartas
   image: img/cartas_vulcano.png
-  description:
+  description: Vulcanoes. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
 - id: cartas-26
   type: cartas
   image: img/cartas_planets.png
-  description:
+  description: Planets. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
@@ -288,28 +258,28 @@
 - id: cartas-50
   type: cartas
   image: img/cartas_discovery.png
-  description:
+  description: Discoveries. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
 - id: cartas-55
   type: cartas
   image: img/cartas_people.png
-  description:
+  description: People. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
 - id: cartas-0
   type: cartas
   image: img/cartas_museums.png
-  description:
+  description: Museums. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
 - id: cartas-34
   type: cartas
   image: img/cartas_plants.png
-  description:
+  description: Plants. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
@@ -319,21 +289,21 @@
 - id: book-54
   type: book
   image: img/book_oquesou_cover.png
-  description:
+  description: Cover for the illustrated book "O que sou / What am I", 2022.
   width: 500
   height: 500
 
 - id: book-2
   type: book
   image: img/book_oquesou_magnify.png
-  description:
+  description: Magnifying glass on leaf. Illustrated book "O que sou / What am I", 2022.
   width: 500
   height: 500
 
 - id: book-17
   type: book
   image: img/book_oquesou_petal.png
-  description:
+  description: Stalk and petal. Illustrated book "O que sou / What am I", 2022.
   width: 500
   height: 500
 
@@ -347,7 +317,7 @@
 - id: book-6
   type: book
   image: img/book_oquesou_technical.png
-  description:
+  description: Technical section. Illustrated book "O que sou / What am I", 2022, 2025.
   width: 500
   height: 500
 
@@ -356,29 +326,31 @@
 - id: book-16
   type: book
   image: img/book_agoodday_home.png
-  description:
+  description: Cover for the illustrated book "A Good Day at School", 2021.
   width: 500
   height: 500
 
 - id: book-3
   type: book
   image: img/book_agoodday_family.png
-  description:
+  description: Family breakfast. Illustrated book "A Good Day at School", 2021.
+  width: 500
+  height: 500
+
+- id: book-11
+  type: book
+  image: img/book_agoodday_bus.png
+  description: Waiting for the bus. Illustrated book "A Good Day at School", 2021.
   width: 500
   height: 500
 
 - id: book-46
   type: book
   image: img/book_agoodday_class.png
-  description:
+  description: In the classrooom. Illustrated book "A Good Day at School", 2021.
   width: 500
   height: 500
-- id: book-11
-  type: book
-  image: img/book_agoodday_bus.png
-  description:
-  width: 500
-  height: 500
+
 
 
 
@@ -386,27 +358,58 @@
 - id: oc-22
   type: oc
   image: img/oc_amultifacetada.png
-  description:
+  description: Arabidopsis multifacetada. Original character, 2021-2025.
   width: 500
   height: 500
 
 - id: oc-1
   type: oc
   image: img/oc_aitaliana.png
-  description:
+  description: Arabidopsis italiana. Original character, 2021-2025.
   width: 500
   height: 500
 
 - id: oc-30
   type: oc
   image: img/oc_abritanica.png
-  description:
+  description: Arabidopsis britanica. Original character, 2021-2025.
   width: 500
   height: 500
 
 - id: oc-53
   type: oc
   image: img/oc_adoctorada.png
-  description:
+  description: Arabidopsis doctorada. Original character, 2021-2025.
+  width: 500
+  height: 500
+
+
+
+#Extra
+- id: illu-44
+  type: illu
+  image: img/illu_simba_methylation.png
+  description: Cell migration, external forces and DNA methylation, 2021.
+  width: 500
+  height: 500
+
+- id: illu-35
+  type: illu
+  image: img/illu_cover_ed.png
+  description: Retirement book cover - Ed Rybicki, 2023.
+  width: 500
+  height: 500
+
+- id: logo-38
+  type: logo
+  image: img/logo_brol.png
+  description: Logo design for the Brazilian Researchers in Oeiras and Lisbon netwrok, 2024.
+  width: 500
+  height: 500
+
+- id: oex-7
+  type: oex
+  image: img/oex_picnic_sustainable.png
+  description: Sustainable picnic. For Oeiras Experimenta, Ciência + Cidadã, 2024.
   width: 500
   height: 500
