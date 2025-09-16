@@ -292,21 +292,21 @@
 - id: book-54
   type: book
   image: img/book_oquesou_cover.png
-  description: Cover for the illustrated book "O que sou / What am I", 2022.
+  description: Cover for the illustrated book - O que sou? / What am I?, 2022.
   width: 500
   height: 500
 
 - id: book-2
   type: book
   image: img/book_oquesou_magnify.png
-  description: Magnifying glass on leaf. Illustrated book "O que sou / What am I", 2022.
+  description: Magnifying glass on leaf. Illustrated book - O que sou? / What am I?, 2022.
   width: 500
   height: 500
 
 - id: book-17
   type: book
   image: img/book_oquesou_petal.png
-  description: Stalk and petal. Illustrated book "O que sou / What am I", 2022.
+  description: Stalk and petal. Illustrated book - O que sou? / What am I?, 2022.
   width: 500
   height: 500
 
@@ -320,7 +320,7 @@
 - id: book-6
   type: book
   image: img/book_oquesou_technical.png
-  description: Technical section. Illustrated book "O que sou / What am I", 2022, 2025.
+  description: Technical section. Illustrated book - O que sou? / What am I?, 2022.
   width: 500
   height: 500
 
@@ -329,28 +329,28 @@
 - id: book-16
   type: book
   image: img/book_agoodday_home.png
-  description: Cover for the illustrated book "A Good Day at School", 2021.
+  description: Cover for the illustrated book - A Good Day at School, 2021.
   width: 500
   height: 500
 
 - id: book-3
   type: book
   image: img/book_agoodday_family.png
-  description: Family breakfast. Illustrated book "A Good Day at School", 2021.
+  description: Family breakfast. Illustrated book - A Good Day at School, 2021.
   width: 500
   height: 500
 
 - id: book-11
   type: book
   image: img/book_agoodday_bus.png
-  description: Waiting for the bus. Illustrated book "A Good Day at School", 2021.
+  description: Waiting for the bus. Illustrated book - A Good Day at School, 2021.
   width: 500
   height: 500
 
 - id: book-46
   type: book
   image: img/book_agoodday_class.png
-  description: In the classrooom. Illustrated book "A Good Day at School", 2021.
+  description: In the classrooom. Illustrated book - A Good Day at School, 2021.
   width: 500
   height: 500
 
