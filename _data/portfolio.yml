@@ -103,7 +103,7 @@
 - id: illu-33
   type: illu
   image: img/illu_ceplas_doughnuts_man.png
-  description: Calories in doughnuts and that produced by plants through photosynthesis. For CEPLAS Planter's Punch, 2020.
+  description: Calories in doughnuts equivalent to that lost by plants through photorrespiration. For CEPLAS Planter's Punch, 2020.
   width: 500
   height: 500
 
