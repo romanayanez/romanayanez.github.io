@@ -232,10 +232,10 @@
   width: 500
   height: 500
 
-- id: cartas-21
+- id: cartas-34
   type: cartas
-  image: img/cartas_light.png
-  description: Light. For Cartas com Ciência, 2021.
+  image: img/cartas_plants.png
+  description: Plants. For Cartas com Ciência, 2021.
   width: 500
   height: 500
 
@@ -246,12 +246,13 @@
   width: 500
   height: 500
 
-- id: cartas-26
+- id: cartas-21
   type: cartas
-  image: img/cartas_planets.png
-  description: Planets. For Cartas com Ciência, 2021.
+  image: img/cartas_light.png
+  description: Light. For Cartas com Ciência, 2021.
   width: 500
   height: 500
+
 
 
 
@@ -276,12 +277,14 @@
   width: 500
   height: 500
 
-- id: cartas-34
+- id: cartas-26
   type: cartas
-  image: img/cartas_plants.png
-  description: Plants. For Cartas com Ciência, 2021.
+  image: img/cartas_planets.png
+  description: Planets. For Cartas com Ciência, 2021.
   width: 500
   height: 500
+
+
 
 
 
