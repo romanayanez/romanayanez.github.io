@@ -126,7 +126,7 @@
 - id: illu-48
   type: illu
   image: img/illu_dynamic.png
-  description: Statistical distributions. For https://fxcosta-phd.github.io/, 2025.
+  description: Statistical distributions. Website figure design, 2025.
   width: 500
   height: 500
 
@@ -155,7 +155,7 @@
 - id: illu-43
   type: illu
   image: img/illu_network.png
-  description: Networks. For https://fxcosta-phd.github.io/, 2025.
+  description: Networks. Website figure design, 2025.
   width: 500
   height: 500
 
