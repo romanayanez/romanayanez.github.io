@@ -1,0 +1,21 @@
+#Let's turn your ideas into visuals! Get to know our process.
+- row: 1
+- items:
+  - title: Request
+    description: Send me a contact request. 
+    icon: fa-bell
+  - title: First contact
+    description: Let's talk about the project idea and how to execute it. Afterwards, a quotation can be provided. 
+    icon: fa-comments
+  - title: Rough draft
+    description: Preliminary version of the project. Plenty of feedback and redirectioning are welcome.
+    icon: fa-pencil
+
+- row: 2
+- items:
+  - title: Semifinal project
+    description: A semifinal version of the project is delivered. Minor corrections are possible. 
+    icon: fa-star-half-o
+  - title: Final project delivery
+    description: The project is complete! You will recieve high definition files of the illustrations and designs ordered. 
+    icon: fa-star

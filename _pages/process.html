@@ -13,23 +13,18 @@ permalink: /process
 	</div>
 </section>
 
-<section id="featured">
-	<!-- Slider -->
-   <div id="main-slider" class="flexslider">
-    <ul class="slides">
-      {% for litem in site.data.slide %}
-        <li>
-          <img src="{{litem.image}}" alt=""/>
-          <div class="flex-caption">
-            <h3>{{litem.title}}</h3>
-            <p>{{litem.description}}</p>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <!-- end slider -->
+<!-- Info Blcoks -->
 
-  <h3>Under Construction</h3>
-  <p>Reach out via the contact details below to learn more.</p>
-</section>
+{% for lrow in site.data.process %}
+  <div class="row">
+    {% for litem in lrow.items %}
+    <div class="col-sm-4 info-blocks">
+      <i class="icon-info-blocks fa {litem.icon}"></i>
+      <div class="info-blocks-in">
+        <h3>{litem.title}</h3>
+        <p>{litem.description}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+<!-- End Info Blcoks -->
