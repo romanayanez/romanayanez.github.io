@@ -12,3 +12,60 @@ permalink: /contact
 		</div>
 	</div>
 </section>
+
+<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="alert alert-success hidden" id="contactSuccess">
+					<strong>Success!</strong> Your message has been sent to us.
+				</div>
+				<div class="alert alert-error hidden" id="contactError">
+					<strong>Error!</strong> There was an error sending your message.
+				</div>
+				
+				<div class="contact-form">
+					<form id="contact-form" role="form" action="https://api.web3forms.com/submit" method="POST">
+						<input type="hidden" name="access_key" value="e0f436ec-d766-4adb-99f0-51ec83f806ea">
+						<div class="form-group has-feedback">
+							<label for="name">Name*</label>
+							<input type="text" class="form-control" id="name" name="name" placeholder="">
+							<i class="fa fa-user form-control-feedback"></i>
+						</div>
+						
+						<div class="form-group has-feedback">
+							<label for="email">Email*</label>
+							<input type="email" class="form-control" id="email" name="email" placeholder="">
+							<i class="fa fa-envelope form-control-feedback"></i>
+						</div>
+											
+						<div class="form-group has-feedback">
+							<label for="subject">Subject*</label>
+							<input type="text" class="form-control" id="subject" name="subject" placeholder="">
+							<i class="fa fa-navicon form-control-feedback"></i>
+						</div>
+											
+						<div class="form-group has-feedback">
+							<label for="message">Message*</label>
+							<textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
+							<i class="fa fa-pencil form-control-feedback"></i>
+						</div>
+											
+						<input type="submit" value="Submit" class="btn btn-default">
+					</form>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<!-- IT WOULD BE NICE TO ADD A FIGURE OR SOMETHING IN HERE -->
+				 <div id="main-slider" class="flexslider">
+					<ul class="slides">
+					{% for litem in site.data.portfolio %}
+						<li><img src="{{litem.image}}" width="500px"/></li>
+					{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
