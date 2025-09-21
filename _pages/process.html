@@ -19,10 +19,10 @@ permalink: /process
   <div class="row">
     {% for litem in lrow.items %}
     <div class="col-sm-4 info-blocks">
-      <i class="icon-info-blocks fa {litem.icon}"></i>
+      <i class="icon-info-blocks fa {{litem.icon}}"></i>
       <div class="info-blocks-in">
-        <h3>{litem.title}</h3>
-        <p>{litem.description}</p>
+        <h3>{{litem.title}}</h3>
+        <p>{{litem.description}}</p>
       </div>
     </div>
     {% endfor %}
